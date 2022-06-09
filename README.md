@@ -48,27 +48,26 @@ Classifiers applied on the protein sequence dataset:
  - Once Jupyter Notebook is running, go to Multiclass-Protein-Research Directory
  - Open Multiclass-Protein-Research.ipynb & Run 
 
-## Accuracy Heat map & 5 Most Common Protein Heat map
+## Accuracy Heat map & 5 Most Common Protein Confusion Matrices 
+From the [confusion matricies](https://en.m.wikipedia.org/wiki/Confusion_matrix), we were able to display the summarize and display the performance for each of the models used to train and test the dataset. The Accuracy heat map demonstrates the accuracy for the different number of classes tested against the models. The accuracy was derived from the precision, recall, and f1-scores for each of the machine learning classifiers. 
 
-<img src="/Readme/Heatmap_Accuracy.png" align="top"
-width="300" hspace="10" vspace="10">
-<img src="/Readme/Heatmap_DecisionTrees.png" align="top"
-width="300" hspace="10" vspace="10">
-<img src="/Readme/Heatmap_RandomForest.png" align="top"
-width="300" hspace="10" vspace="10">
-<img src="/Readme/Heatmap_ExtraTrees.png" align="top"
-width="300" hspace="10" vspace="10">
 
-## Most Common Protein Heat map
+Heatmap & Confusion Matricies  | Image
+------------- | -------------
+Accuracy Among Various Class Sizes (Decision Trees, Random Forest, and Extra Trees Respectively)| ![](/Readme/Heatmap_Accuracy.png)
+Decision Trees of Top 5 Classes | ![](/Readme/Heatmap_DecisionTrees.png)
+Random Forest of Top 5 Classes | ![](/Readme/Heatmap_RandomForest.png)
+Extra Trees of Top 5 Classes | ![](/Readme/Heatmap_ExtraTrees.png)
 
-<img src="/Readme/Heatmap29_DecisionTrees.png" align="top"
-width="300" hspace="10" vspace="10">
-<img src="/Readme/Heatmap29_RandomForest.png" align="top"
-width="300" hspace="10" vspace="10">
-<img src="/Readme/Heatmap29_ExtraTrees.png" align="top"
-width="300" hspace="10" vspace="10">
+## Top 29 Most Common Protein Confusion Matrices
 
- 
+
+Heatmap  | Image
+------------- | -------------
+Decision Trees of Top 29 Classes | ![](/Readme/Heatmap29_DecisionTrees.png)
+Random Forest of Top 29 Classes | ![](/Readme/Heatmap29_RandomForest.png)
+Extra Trees of Top 29 Classes | ![](/Readme/Heatmap29_ExtraTrees.png)
+
 # Citation
 If you use this software in academic research, please, cite it using the following BibTeX:
 ```latex
