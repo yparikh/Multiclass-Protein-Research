@@ -49,7 +49,7 @@ Classifiers applied on the protein sequence dataset:
  - Open Multiclass-Protein-Research.ipynb & Run 
 
 ## Accuracy Heat map & 5 Most Common Protein Confusion Matrices 
-From the [confusion matricies](https://en.m.wikipedia.org/wiki/Confusion_matrix), we were able to display the summarize and display the performance for each of the models used to train and test the dataset. The Accuracy heat map demonstrates the accuracy for the different number of classes tested against the models. The accuracy was derived from the precision, recall, and f1-scores for each of the machine learning classifiers. 
+From the [confusion matricies](https://en.wikipedia.org/wiki/Confusion_matrix), we were able to display the summarize and display the performance for each of the models used to train and test the dataset. The Accuracy heat map demonstrates the accuracy for the different number of classes tested against the models. The accuracy was derived from the precision, recall, and f1-scores for each of the machine learning classifiers. 
 
 
 Heatmap & Confusion Matricies  | Image
