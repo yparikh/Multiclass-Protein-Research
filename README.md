@@ -48,11 +48,18 @@ Classifiers applied on the protein sequence dataset:
  - Once Jupyter Notebook is running, go to Multiclass-Protein-Research Directory
  - Open Multiclass-Protein-Research.ipynb & Run 
 
-## Accuracy Heat map & 5 Most Common Protein Confusion Matrices 
-From the [confusion matricies](https://en.wikipedia.org/wiki/Confusion_matrix), we were able to display the summarize and display the performance for each of the models used to train and test the dataset. The Accuracy heat map demonstrates the accuracy for the different number of classes tested against the models. The accuracy was derived from the precision, recall, and f1-scores for each of the machine learning classifiers. 
-
 ## Labels
-The labels on each of the graphs represent the classification of the protein. Various proteins will share similar sequences or structural properties, thus  allowing proteins to be classified into groups. These groups with well defined characteristics can help with proposing functional properties when a novel protein is identitified. In the top 5 most common classifications, classes such as Hydrolase and Transferase will be seen often since these are large classes of enyzmes. Hydrolase will be seen the most since it is the largest class of enzymes with more than 200 enyzmes. 
+- The labels on each of the graphs represent the classification of the protein. 
+- Various proteins will share similar sequences or structural properties, thus  allowing proteins to be classified into groups. 
+- These groups with well defined characteristics can help with proposing functional properties when a novel protein is identitified. 
+- In the top 5 most common classifications, classes such as Hydrolase and Transferase will be seen often since these are large classes of enyzmes. 
+- Hydrolase will be seen the most since it is the largest class of enzymes with more than 200 enyzmes. 
+
+
+## Accuracy Heat map & 5 Most Common Protein Confusion Matrices 
+- From the [confusion matricies](https://en.wikipedia.org/wiki/Confusion_matrix), we were able to display the summarize and display the performance for each of the models used to train and test the dataset. 
+- The Accuracy Heat Map demonstrates the accuracy for the different number of classes tested against the models. 
+- The accuracy was derived from the precision, recall, and f1-scores for each of the machine learning classifiers. 
 
 
 Heatmap & Confusion Matricies  | Image
