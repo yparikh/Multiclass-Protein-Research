@@ -57,7 +57,7 @@ The labels on each of the graphs represent the classification of the protein. Va
 
 Heatmap & Confusion Matricies  | Image
 ------------- | -------------
-Accuracy Among Various Class Sizes (Decision Trees, Random Forest, and Extra Trees Respectively)| ![](/Readme/Heatmap_Accuracy.png)
+Accuracy Among Various Class Sizes (The top 5 are accuracies for the Decision Trees, The middle 5 are accuracies for Random Forest, and the Bottom 5 are accuracies for the Extra Trees. Each Classifier gradually improved accuracy when the number of classes to test against was reduced.)| ![](/Readme/Heatmap_Accuracy.png)
 Decision Trees of Top 5 Classes | ![](/Readme/Heatmap_DecisionTrees.png)
 Random Forest of Top 5 Classes | ![](/Readme/Heatmap_RandomForest.png)
 Extra Trees of Top 5 Classes | ![](/Readme/Heatmap_ExtraTrees.png)
